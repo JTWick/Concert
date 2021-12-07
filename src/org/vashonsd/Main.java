@@ -10,6 +10,15 @@ public class Main {
      * Then print out the performers.
      */
     public static void main(String[] args) {
+        Performer joshy = new Performer("Joshy Robertson", "A man known for his incredible pop-style country music");
+        Performer carry = new Performer("Carry Smith", "Complicated music words no one understands have fueled her career");
+        Performer wek = new Performer("Wek", "Wek");
 
+        joshy.addHit("The Day I Left");
+        carry.addHit("I Am Loquaciously Sad");
+
+        System.out.println(joshy);
+        System.out.println(carry);
+        System.out.println(wek);
     }
 }
